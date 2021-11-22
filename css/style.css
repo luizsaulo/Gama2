@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+header a {
+    gap: 10px;
+    text-decoration: none;
+    transition: 300ms;
+    color: rgb(109, 23, 23);
+    font-weight: 700;
+    align-items: center;
+}
+
+header a:hover {
+    color:rgba(134, 24, 24, 0.452);
+}
+
+body {
+    background: url(/Images/pexels-snapwire-349727.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
