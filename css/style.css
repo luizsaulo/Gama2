@@ -15,13 +15,41 @@ header a {
     color: rgb(109, 23, 23);
     font-weight: 700;
     align-items: center;
+    display: flex;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header a:hover {
     color:rgba(134, 24, 24, 0.452);
 }
 
+header {
+    display: flex;
+    background-color: rgb(255, 253, 253);
+}
+
 body {
     background: url(/Images/pexels-snapwire-349727.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+
+.container {
+    margin-top: 500 px;
+    margin-left: 90px;
+    margin-right: 800px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(59, 9, 9);
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+#entrega {
+    margin-top: 20px;
+    font-weight: 300;
+    color: rgb(199, 145, 74);
 }
