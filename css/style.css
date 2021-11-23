@@ -48,11 +48,28 @@ h2 {
     
 }
 
+h3 {
+    color: silver;
+}
+
 #entrega {
     margin-top: 20px;
     font-weight: 300;
     color: rgb(199, 145, 74);
 }
+
+.produtos {
+    display: inline-flex;
+    margin-top: 20px;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
 
 @media only screen and (max-width: 375px) {
     header a {

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+header a {
+    gap: 10px;
+    text-decoration: none;
+    transition: 300ms;
+    color: rgb(109, 23, 23);
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a:hover {
+    color:rgba(134, 24, 24, 0.452);
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 253, 253);
+}
+
+.container {
+    background: url(/Images/pexels-the-lazy-artist-gallery-1569002.jpg) no-repeat center center fixed;
+    background-size: cover;    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: center;
+    row-gap: 30px;
+}
+
+h3 {
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    color: snow;
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+}
+
+.meia-água {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;   
+    padding-left: 10px;    
+}
+
+.fundo {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    padding-left: 10px;  
+}
+
+.jig {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    padding-left: 10px;  
+}
+
+p {
+    color: snow;
+    font-size: 1em;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 15px;  
+}
