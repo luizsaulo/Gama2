@@ -38,6 +38,7 @@ header {
     justify-content: space-evenly;
     align-content: space-evenly;
     justify-items: center;
+    row-gap: 30px;
 }
 
 .container > div {
@@ -53,4 +54,26 @@ p {
     font-family: 'Prompt', sans-serif;
     color: rgb(90, 11, 11);
     font-weight: 400;
+}
+
+
+@media only screen and (max-width: 375px) {
+    header a {
+        font-size: 0.7em;
+        clear: both;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    p {
+       font-size: 0.8em;
+    }
+    
+    img {
+        width: 150px;
+        height: auto;
+    }
 }

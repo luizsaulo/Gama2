@@ -53,3 +53,61 @@ h2 {
     font-weight: 300;
     color: rgb(199, 145, 74);
 }
+
+@media only screen and (max-width: 375px) {
+    header a {
+        font-size: 0.5em;
+    }
+
+    .container {
+        margin-left: 10px;
+    }
+    .empresa {
+        width: 150px;
+        font-size: 0.7em;        
+    }
+    main h2 {
+        font-size: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    main {
+        width: 80%;
+        text-align: justify;
+    }
+    .container {
+        margin-left: 30px;
+    }
+    .empresa {
+        width: 400px;
+        font-size: 1.2em;        
+    }
+    main h2 {
+        font-size: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) {
+    header {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    .empresa {
+        width: 400px;
+        font-size: 1.3em;        
+    }
+    main h2 {
+        font-size: 1em;
+    }
+}
+
+
+
