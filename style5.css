@@ -39,3 +39,11 @@ header {
 p {
     text-align: center;
 }
+
+.barco {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: center;
+}

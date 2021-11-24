@@ -41,18 +41,26 @@ header {
     row-gap: 30px;
 }
 
+.container img {
+    border-radius: 5px;
+}
+
 .container > div {
-    background: rgb(199, 189, 189);
+    /* background: rgb(199, 189, 189); */
+    background: url(/Images/pexels-berend-de-kort-1452701.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 main {
-    background-color: rgb(199, 189, 189);
+    /* background-color: rgb(199, 189, 189); */
     padding-top: 40px;
+    background: url(/Images/pexels-berend-de-kort-1452701.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 p {
     font-family: 'Prompt', sans-serif;
-    color: rgb(90, 11, 11);
+    color: rgb(241, 232, 232);
     font-weight: 400;
 }
 

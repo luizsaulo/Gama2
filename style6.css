@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+header a {
+    gap: 10px;
+    text-decoration: none;
+    transition: 300ms;
+    color: rgb(109, 23, 23);
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a:hover {
+    color:rgba(134, 24, 24, 0.452);
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 253, 253);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.banner {
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: whitesmoke;
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: space-evenly;
+    justify-items: center;
+}
+
+.iscas {
+    display: flex;
+    align-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-left: 50px;
+    grid-gap: 20px;
+}
+
+.iscas a:hover {
+    border-style: groove;
+    /* border: silver; */
+}
+
+.barcos {
+    display: flex;
+    align-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 60px;
+    margin-left: 50px;
+}
+
+.barcos a:hover {
+    border-style: groove;
+    box-shadow: rgba(230, 223, 223, 0.959);
+}
+
+.carretilhas {
+    display: flex;
+    align-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-left: 50px;
+    grid-gap: 20px;
+}
+
+.carretilhas a:hover {
+    border-style: groove;
+}
+
+h4 {
+    color:rgb(192, 13, 13);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+footer {
+    height: 40px;
+    background-color: rgb(10, 128, 92);
+    color: rgb(241, 226, 226);
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+footer a {
+    text-align: center;
+    text-decoration:none;
+    padding-top: 200px;
+}
+
+footer > a:hover {
+    font-size: 1.2em;
+}
