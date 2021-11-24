@@ -33,13 +33,50 @@ body {
     background-color: whitesmoke;
 }
 
-.banner {
+.galery {
+    align-content: center;
+    width: 836px;
+    height: 230px;
+    background-color: rgb(233, 227, 227);
+    border: 3px solid;
+    overflow: hidden;
+    margin-left: 250px;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+
+@keyframes animacao {
+    0% {margin-left: 0; }
+    20% {margin-left: 0;}
+    25% {margin-left: -100%; }
+    45% {margin-left: -100%; }
+    50% {margin-left: -200%; }
+    70% {margin-left: -200%; }
+    75% {margin-left: -300%; }
+    95% {margin-left: -300%; }
+    100% {margin-left: -400%; }
+}
+
+.carrossel {
+    background-color: black;
+}
+
+/* .banner {
     padding-top: 10px;
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
     display: flex;
-}
+} */
 
 .container {
     width: 100vw;
@@ -51,6 +88,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     align-items: space-evenly;
     justify-items: center;
+    margin-left: 200px;
 }
 
 .iscas {
@@ -104,13 +142,7 @@ body {
 
 .carretilhas a:hover {
     border-style: groove;
-}
-
-h4 {
-    color:rgb(192, 13, 13);
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-size: larger;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.7);
 }
 
 footer {
@@ -125,7 +157,7 @@ footer {
 footer a {
     text-align: center;
     text-decoration:none;
-    padding-top: 200px;
+   
 }
 
 footer > a:hover {
