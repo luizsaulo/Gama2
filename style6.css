@@ -31,6 +31,7 @@ header {
 
 body {
     background-color: whitesmoke;
+    
 }
 
 .galery {
@@ -78,7 +79,7 @@ body {
     display: flex;
 } */
 
-.container {
+/* .container {
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -89,9 +90,77 @@ body {
     align-items: space-evenly;
     justify-items: center;
     margin-left: 200px;
+} */
+
+.container {
+    display: flex;
+    gap: 10px;
+    width: 98%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
-.iscas {
+.linha {
+    display: flex;
+    gap: 10px;
+}
+
+.isca {
+    width: 300px;
+    min-height: 300px;
+    background-color: rgba(204, 199, 194, 0.404);
+    border-radius: 5px;
+}
+
+.barco {
+    width: 300px;
+    min-height: 200px;
+    background-color: rgba(204, 199, 194, 0.404);;
+    border-radius: 5px;
+}
+
+
+.carretilha {
+    width: 300px;
+    min-height: 300px;
+    background-color: rgba(204, 199, 194, 0.404);;
+    border-radius: 5px;
+}
+
+h2 h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .barco {
+    display: flex;
+    gap: 10px;
+    width: 98%;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+
+/* .barcos {
+    display: flex;
+    gap: 10px;    
+    width: 300px;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+/* 
+.carretilhas {
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+/* .iscas {
     display: flex;
     align-content: space-evenly;
     margin-top: 10px;
@@ -102,14 +171,14 @@ body {
     justify-items: center;
     margin-left: 50px;
     grid-gap: 20px;
-}
+} */
 
 .iscas a:hover {
     border-style: groove;
     /* border: silver; */
 }
 
-.barcos {
+/* .barcos {
     display: flex;
     align-content: space-evenly;
     margin-top: 10px;
@@ -120,14 +189,14 @@ body {
     justify-items: center;
     grid-gap: 60px;
     margin-left: 50px;
-}
+} */
 
 .barcos a:hover {
     border-style: groove;
     box-shadow: rgba(230, 223, 223, 0.959);
 }
 
-.carretilhas {
+/* .carretilhas {
     display: flex;
     align-content: space-evenly;
     margin-top: 10px;
@@ -138,7 +207,7 @@ body {
     justify-items: center;
     margin-left: 50px;
     grid-gap: 20px;
-}
+} */
 
 .carretilhas a:hover {
     border-style: groove;
@@ -146,20 +215,93 @@ body {
 }
 
 footer {
-    height: 40px;
+    min-height: 40px;
     background-color: rgb(10, 128, 92);
     color: rgb(241, 226, 226);
     align-items: center;
     align-content: center;
-    padding-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
 }
 
 footer a {
     text-align: center;
     text-decoration:none;
-   
+    padding-left: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer > a:hover {
     font-size: 1.2em;
+}
+
+@media only screen and (max-width: 375px) {
+    
+    header {
+        width: 200px;
+    }
+    
+    header a {
+        font-size: 1.em;
+    }
+
+    .container {
+        margin-left: 10px;
+    }
+    .empresa {
+        width: 150px;
+        font-size: 0.7em;        
+    }
+    main h2 {
+        font-size: 1em;
+    }
+
+    footer {
+        width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    main {
+        width: 80%;
+        text-align: justify;
+    }
+    .container {
+        margin-left: 30px;
+    }
+    .empresa {
+        width: 400px;
+        font-size: 1.2em;        
+    }
+    main h2 {
+        font-size: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) {
+    header {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    .empresa {
+        width: 400px;
+        font-size: 1.3em;        
+    }
+    main h2 {
+        font-size: 1em;
+    }
 }
