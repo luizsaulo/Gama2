@@ -29,6 +29,14 @@ header {
     background-color: rgb(255, 253, 253);
 }
 
+.banner {
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -85,3 +93,13 @@ p {
         height: auto;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    
+.banner img {
+    width: 90vw;
+}
+
+}
+
+

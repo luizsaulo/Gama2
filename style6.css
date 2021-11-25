@@ -34,6 +34,10 @@ body {
     
 }
 
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 .galery {
     align-content: center;
     width: 836px;
@@ -102,6 +106,8 @@ body {
     margin-bottom: 50px;
 }
 
+
+
 .linha {
     display: flex;
     gap: 10px;
@@ -129,9 +135,7 @@ body {
     border-radius: 5px;
 }
 
-h2 h3 {
-    font-family: 'Roboto', sans-serif;
-}
+
 
 /* .barco {
     display: flex;
