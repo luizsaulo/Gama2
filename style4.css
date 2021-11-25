@@ -30,7 +30,7 @@ header {
 }
 
 .container {
-    background: url(/Images/pexels-the-lazy-artist-gallery-1569002.jpg) no-repeat center center scroll;
+    background: url(./Images/pexels-the-lazy-artist-gallery-1569002.jpg) no-repeat center center scroll;
     background-size: cover;    
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;

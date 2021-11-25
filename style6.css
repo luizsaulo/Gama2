@@ -178,6 +178,7 @@ h2 h3 {
     /* border: silver; */
 }
 
+
 /* .barcos {
     display: flex;
     align-content: space-evenly;
@@ -191,10 +192,10 @@ h2 h3 {
     margin-left: 50px;
 } */
 
-.barcos a:hover {
+/* .barcos a:hover {
     border-style: groove;
     box-shadow: rgba(230, 223, 223, 0.959);
-}
+} */
 
 /* .carretilhas {
     display: flex;
@@ -209,10 +210,10 @@ h2 h3 {
     grid-gap: 20px;
 } */
 
-.carretilhas a:hover {
+/* .carretilhas a:hover {
     border-style: groove;
     box-shadow: 2px 2px 10px rgba(0,0,0,.7);
-}
+} */
 
 footer {
     min-height: 40px;
