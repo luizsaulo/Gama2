@@ -50,6 +50,7 @@ h2, h3 {
 
 .galery .fotos {
     width: 500%;
+    
     animation-name: animacao;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -57,6 +58,7 @@ h2, h3 {
 
 .galery .fotos img {
     width: 19.9%;
+    
 }
 
 @keyframes animacao {
@@ -104,6 +106,7 @@ h2, h3 {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    /* align-items: center; */
 }
 
 
@@ -253,30 +256,33 @@ footer > a:hover {
     font-size: 1.2em;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     
+    body {
+        width: 370px;
+    }
+
     header {
-        width: 200px;
+        width: 370px;
+        font-size: 0.8rem;
+        display: flex;
+        gap: 0px;
+    }
+
+    header a {
+        margin-left: 0px;
+    }
+
+    .container .linha {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap
+    }
+
+    .carrossel {
+        display: none;
     }
     
-    header a {
-        font-size: 1.em;
-    }
-
-    .container {
-        margin-left: 10px;
-    }
-    .empresa {
-        width: 150px;
-        font-size: 0.7em;        
-    }
-    main h2 {
-        font-size: 1em;
-    }
-
-    footer {
-        width: 100vw;
-    }
 }
 
 
@@ -288,8 +294,10 @@ footer > a:hover {
         width: 80%;
         text-align: justify;
     }
-    .container {
-        margin-left: 30px;
+    .container .linha {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap
     }
     .empresa {
         width: 400px;
