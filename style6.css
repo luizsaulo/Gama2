@@ -177,11 +177,17 @@ h2, h3 {
     grid-gap: 20px;
 } */
 
-.iscas a:hover {
-    border-style: groove;
-    /* border: silver; */
+.isca:hover {
+    border:3px solid rgb(223, 218, 218);     
 }
 
+.barco:hover {
+    border:3px solid rgb(223, 218, 218);     
+}
+
+.carretilha:hover {
+    border:3px solid rgb(223, 218, 218);     
+}
 
 /* .barcos {
     display: flex;
