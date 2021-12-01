@@ -15,3 +15,6 @@ O projeto foi desenvolvido com HTML e CSS puro
 
 ### 🔩 Objetivo
 O intuito do projeto é desenvolver habilidades em HTML e CSS sem a utilização de frameworks
+
+### Link do projeto para visualização
+https://luizsaulo.github.io/Gama2/
