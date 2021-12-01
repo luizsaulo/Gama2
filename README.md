@@ -1,6 +1,17 @@
-# Projeto de criação de um site de comércio eletrônico - Go Fishing
-## Irei desenvolver um site de material de pesca esportiva
-## Reuni algumas imagens para colocar no fundo dos links: principal, barcos, carretilhas e iscas
-## Escolhidas as imagens, é hora de montar o layout
-## As páginas estão montadas com as apresentações da loja, uma explicação do que é a pesca esportiva e apresentação dos produtos
-## A responsividade foi um grande desafio devido à grande quantidade de imagens que foram utilizadas
+# Go Fishing 
+Projeto de criação de um site de comércio eletrônico
+## 🚀 Começando
+
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+### 📋 Pré-requisitos
+
+Computador simples, com sistema operacional da sua preferência ou dispositivo mobile do seu uso; nada fora do usual.
+## 🛠️ Construído com
+* HTML
+* CSS
+
+## 📌 Versão
+O projeto foi desenvolvido com HTML e CSS puro
+
+### 🔩 Objetivo
+O intuito do projeto é desenvolver habilidades em HTML e CSS sem a utilização de frameworks
